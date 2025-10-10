@@ -10,7 +10,7 @@ app.config['MYSQL_DB'] = 'tarea'
 
 conexion = MySQL(app)
 
-port = 3000
+port = 80
 
 @app.route('/')
 def inicio():
